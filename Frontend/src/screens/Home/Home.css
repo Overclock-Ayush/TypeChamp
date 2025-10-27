@@ -1,0 +1,209 @@
+.home-top {
+  position: relative;
+}
+.homeImg {
+  background-size: contain;
+  width: 100%;
+  height: 40rem;
+}
+.home-heading {
+  position: absolute;
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  top: 20%;
+}
+
+.user {
+  position: absolute;
+  width: 10rem;
+  top: 70%;
+  /* left: 40%; */
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 0 10px black;
+}
+
+.single {
+  left: 35%;
+}
+
+.multi {
+  left: 55%;
+}
+
+.try {
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  background-color: black;
+  color: white;
+  width: max-content;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.user:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.home-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  margin: 5rem;
+}
+
+.left {
+  width: 30rem;
+  font-family: "Abril Fatface";
+  font-size: 3rem;
+  text-align: left;
+}
+
+.right {
+  font-family: "Libre Baskerville";
+  text-align: left;
+  width: 25rem;
+  font-size: 1.3rem;
+}
+.home-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  background-color: #212121;
+  padding: 5rem;
+}
+.get-started {
+  font-family: "Abril Fatface";
+  font-size: 3rem;
+  color: white;
+}
+.home-2-below {
+  font-family: "Libre Baskerville";
+  color: white;
+  width: 20rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 8rem;
+  height: 3rem; */
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.home-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  background-color: #14213d;
+  padding: 5rem;
+}
+
+.home-3-upper,
+.home-3-lower {
+  display: flex;
+  align-items: center;
+  gap: 20rem;
+}
+.text-upper,
+.text-lower {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+  width: 24rem;
+}
+.text-lower-1,
+.text-upper-1 {
+  font-family: "Abril Fatface";
+  font-size: 2rem;
+}
+.text-lower-2,
+.text-upper-2 {
+  font-family: "Libre Baskerville";
+  line-height: 1.5;
+}
+.upperImg,
+.lowerImg {
+  border-radius: 40px;
+}
+
+.home-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #212121;
+  padding: 5rem;
+}
+
+.feedback {
+  font-family: "Abril Fatface";
+  color: rgb(222, 220, 220);
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+.feedback-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: rgb(218, 217, 217);
+  width: 30%;
+  padding: 2rem;
+  border-radius: 30px;
+}
+
+.img {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+}
+
+.feedback-content {
+  text-align: center;
+}
+
+.footer {
+  background-color: #14213d;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}

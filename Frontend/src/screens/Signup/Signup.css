@@ -1,0 +1,131 @@
+.background{
+    display:flex;
+    position:relative;
+}
+.BackgroundLeft{
+    background:#E8F2F7;
+    width:50vw;
+    height:100vh;
+}
+.BackgroundRight{
+    background:#7ABBFA;
+    width:50vw;
+    height:100vh;
+}
+.SignupForm{
+    border-radius:67px;
+    background:rgba(255,255,255,0.85);
+    position:absolute;
+    top:24px;
+    left:170px;
+    width:900px;
+    height:550px;
+    padding:10px 20px;
+}
+
+.SignFormContainer{
+    display:flex;
+    justify-content:space-around;
+}
+
+.SignFormContainerLeft{
+    display:flex;
+    flex-direction:column;
+    justify-content: left;
+    margin-top:15px;
+}
+
+.SignWelcome{
+    color:black;
+    font-family:Roboto;
+    font-size:40px;
+    font-style:normal;
+    font-weight: bold;
+    margin-bottom:0;
+}
+
+.SignQuotation{
+    color:#A8B6BE;
+    font-family:Roboto;
+    font-size:18px;
+    font-style:normal;
+    font-weight:500;
+    line-height:normal;
+    margin-bottom:25px;
+}
+
+.SignhtmlForm-group{
+    display:flex;
+    flex-direction:column;
+}
+
+.SigninputLabel{
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+.Signinput{
+    width:320px;
+    margin-bottom:15px;
+    border-radius:5px;
+    border:1px solid #A8B6BE;
+    padding:8px;
+}
+
+.SignupFormButton{
+    width:200px;
+    height:45px;
+    flex-shrink:0;
+    border-radius:37px;
+    border:1px solid #A8B6BE;
+    background:#7ABBFA;
+    color:white;
+    margin-top:20px;
+}
+
+.SignupFormButton:hover{
+    color:black;
+    background:white;
+    border:2px solid #7ABBFA;
+}
+
+.SignButtonGroup{
+    display:flex;
+    justify-content:center;
+    margin-top:60px;
+}
+
+.SignNoAccount{
+    color:#747575;
+    font-family:Roboto;
+    font-size:20px;
+    font-style:normal;
+    font-weight:500;
+    line-height:normal;
+    margin-bottom:20px;
+    margin-right:15px;
+}
+
+.SignupFormLogin{
+    text-decoration:none;
+    border:2px solid #7ABBFA;
+    border-radius:10px;
+    padding:8px 15px;
+    color:#7ABBFA;
+    font-size:14px;
+    font-weight:500;
+}
+
+.SignupFormLogin:hover{
+    background:#7ABBFA;
+    color:white !important;
+}
+
+.LoginFormSign:hover{
+    color:#7ABBFA;
+}
+
+.SignImage{
+    width:300px;
+    height:300px;
+}

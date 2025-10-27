@@ -1,0 +1,25 @@
+table, th, td {
+    border: 2px solid #ddd;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    /* border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd; */
+}
+
+tr:hover {
+    background-color:#e8e6e6;
+}
+
+.LeaderboardTable{
+    margin:20px;
+}

@@ -1,0 +1,43 @@
+.wrapper {
+  height: 5rem;
+  width: 100%;
+  background-color: black;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0.5rem;
+  padding-right: 4rem;
+}
+
+.logo {
+  width: 13rem;
+  height: 7rem;
+  margin-top: -1rem;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: -1rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 5rem;
+  height: 2rem; */
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 7px;
+  font-size: 15px;
+  cursor: pointer;
+  padding:5px;
+  /* font-weight: bold; */
+}

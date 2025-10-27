@@ -1,0 +1,13 @@
+.correct{
+    font-weight:bold;
+    color:rgb(8, 225, 8);
+}
+
+.incorrect{
+    font-weight:bold;
+    color:red;
+}
+
+.active{
+    font-weight:bold;
+}
