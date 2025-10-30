@@ -16,7 +16,29 @@ app.get("/",(req,res)=>{
     res.send("HELLO server");
 });
 
-app.use(cors());
+const allowedOrigin = process.env.CLIENT_ORIGIN || 'http://localhost:3000';
+
+app.use(cors({
+  origin: (origin, callback) => {
+    // allow requests with no origin (like mobile apps, curl, Postman)
+    if (!origin) return callback(null, true);
+    if (Array.isArray(process.env.CLIENT_ORIGIN)) {
+      // not typical — prefer comma-separated string if multiple
+    }
+    const whitelist = (process.env.CLIENT_ORIGIN || 'http://localhost:3000').split(',').map(s => s.trim());
+    if (whitelist.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true
+}));
+
+// If you plan to use secure cookies behind Render's proxy:
+app.set('trust proxy', 1);
+
+// app.use(cors({ origin: 'http://localhost:3000', credentials: true }));
 app.use(express.json());
 app.use("/api",require("./Routes/CreateUser"));
 app.use("/api",require("./Routes/DisplayData"));
